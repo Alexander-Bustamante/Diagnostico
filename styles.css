@@ -299,4 +299,5 @@ p{
     font-size: 2.4vh;
     border: none;
     justify-content: space-evenly;
+    cursor: pointer;
 }
