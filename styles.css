@@ -28,6 +28,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-bottom-left-radius: 12vh;
 }
 
 /*Aspectos Generales*/
@@ -208,11 +209,19 @@ p{
     align-items: end;
 }
 
-.img-1 img{
+.img-1 div{
     width: 22vh;
     height: 22vh;
     border-radius: 5.5vh;
     margin-top: -28vh;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-1 div img{
+    width: 11vh;
 }
 
 .img-2 div{
