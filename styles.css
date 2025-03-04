@@ -1,0 +1,302 @@
+/*Aspectos Generales*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#left{
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6vh;
+}
+
+#right{
+    width: 50%;
+    min-height: 100%;
+    padding: 6vh;
+    background-color: #00CBBF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Aspectos Generales*/
+
+
+/*Login*/
+
+#login{
+    display: flex;
+    flex-direction: column;
+    width: 43vh;
+    height: 60vh;
+    margin-top: 2vh;
+}
+
+.logo{
+    align-items: start;
+    display: flex;
+    height: 6vh;
+    margin-left: -70vh;
+}
+
+.text-up-1{
+    display: flex;
+    flex-direction: row;
+    font-size: 3.5vh;
+}
+
+.text-up-2{
+    font-size: 2.3vh;
+    margin-top: 1vh;
+}
+
+.txt-2{
+    color: #00CBBF;
+    font-weight: bold;
+}
+
+.txt-1{
+    font-weight: bold;
+    color: #575757;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+.rut-t{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.rut-l{
+    display: flex;
+    margin-top: 2vh;
+    height: 6vh;
+    width: 39vh;
+    border-radius: 3vh;
+    border-color: #e2e2e2;
+    border-style: solid;
+    padding-left: 3vh;
+}
+
+.img-eye{
+    height: 3vh;
+}
+
+.clave-t{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.clave-l{
+    display: flex;
+    margin-top: 2vh;
+    height: 6vh;
+    width: 39vh;
+    border-radius: 3vh;
+    padding-left: 3vh;
+    border-color: #e2e2e2;
+    border-style: solid;
+    align-content: center;
+    margin-bottom: 4vh;
+}
+
+.clave-l div{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.password-forgot{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.password-forgot a{
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+
+#buttons-login{
+    width: 43vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingresar{
+    margin-top: 4vh;
+    width: 43vh;
+    height: 7.5vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+    background-color: #00CBBF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3.5vh;
+    cursor: pointer;
+}
+
+.i-huella{
+    margin-top: 4vh;
+    width: 43vh;
+    height: 7.5vh;
+    font-size: 2.5vh;
+    background-color: #ffffff;
+    color: #00CBBF;
+    border: none;
+    border-radius: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-color: #00CBBF;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.botton-left{
+    margin-top: 18vh;
+    display: flex;
+    justify-content: baseline;
+    height: 5vh;
+    margin-left: -65vh;
+    font-size: 2.5vh;
+}
+
+.botton-left p{
+    display: flex;
+    align-items: center;
+}
+
+.botton-left-a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #00CBC5;
+}
+
+/*Login*/
+
+/*Seccion derecha*/
+
+#imgs-right{
+    flex-direction: column;
+    width: 53vh;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.img-1 img{
+    width: 22vh;
+    height: 22vh;
+    border-radius: 5.5vh;
+    margin-top: -28vh;
+}
+
+.img-2 div{
+    background-color: #FFFFFF;
+    width: 26vh;
+    height: 26vh;
+    border-radius: 4.5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10vh;
+    margin-bottom: -3vh;
+}
+
+.img-2 div img{
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+    width: 11vh;
+    margin-top: -1.5vh;
+}
+
+.img-2 div p{
+    font-size: 2.4vh;
+    font-weight: bold;
+    color: #575757;
+}
+
+.img-3{
+    margin-bottom: -9vh;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-3 div {
+    width: 22vh;
+    height: 22vh;
+    background-color: #FFFFFF;
+    border-radius: 4.5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-3 div img{
+    width: 8.5vh;
+}
+
+#botton-right{
+    margin-top: 9vh;
+    color: #FFFFFF;
+    width: 80vh;
+}
+
+.bienvenido{
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+}
+
+.instala{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+}
+
+.sps{
+    font-size: 3vh;
+}
+
+.como-instalar{
+    background-color: #FFFFFF;
+    color: #00CBBF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 44vh;
+    height: 5.5vh;
+    border-radius: 3.5vh;
+    margin-top: 4.5vh;
+    font-size: 2.4vh;
+    border: none;
+    justify-content: space-evenly;
+}
